@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "name": "Python: process_data.py",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/srini/Downloads/Disaster-Response-ML-Project-master/Disaster-Response-ML-Project-master/data/process_data.py",
+            "console": "integratedTerminal",
+            "args": [
+                "C:/Users/srini/Downloads/Disaster-Response-ML-Project-master/Disaster-Response-ML-Project-master/data/disaster_messages.csv",
+                "C:/Users/srini/Downloads/Disaster-Response-ML-Project-master/Disaster-Response-ML-Project-master/data/disaster_categories.csv",
+                "C:/Users/srini/Downloads/Disaster-Response-ML-Project-master/Disaster-Response-ML-Project-master/data/DisasterResponse.db"
+            ]
+        }
+    ]
+}
